@@ -2,6 +2,6 @@
 
 const { resolve } = require('node:path');
 
-const tests = [];
+const tests = ['math'];
 
 for (const test of tests) require(resolve(__dirname, `${test}.js`));
