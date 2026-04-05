@@ -42,11 +42,13 @@ AST is what compilers or interpreters use to understand
 - Leaves are literals, variables
 
 ### Example
+```js
        +
      /   \
    5       *
          /   \
         3     2
+```
 
 ### Building an AST
 There are two ways to build a tree
