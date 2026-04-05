@@ -35,6 +35,20 @@ identify tokens for the rest of the program.
 # Parsing - Syntax Analysis
 Parser takes tokens and produces an AST representing program structure.
 
+## Parser types:
+1. Top-down
+- start from root
+- has predefined set of scenarios or rules.
+- pick one rule depending on token.
+- follow rule with specific expected value
+- rule ends, pick another one
+- expectation fails -> error
+
+2. Bottom-up
+- start from bottom
+- build structure by combining tokens
+- form higher-level structures
+
 ## AST (Abstract syntax tree)
 AST is what compilers or interpreters use to understand
 - Tree represents code without unnecessary details
