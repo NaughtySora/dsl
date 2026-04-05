@@ -1,0 +1,13 @@
+{
+  "name": "dsl",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "exports": "./main.js",
+  "scripts": {
+    "test": "c8 node ./test/index.js"
+  },
+  "devDependencies": {
+    "c8": "^11.0.0"
+  }
+}
